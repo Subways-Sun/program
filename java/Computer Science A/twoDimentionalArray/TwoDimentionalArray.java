@@ -1,4 +1,5 @@
-package projects;
+package twoDimentionalArray;
+import java.lang.Math;
 public class TwoDimentionalArray {
 	public static void main(String[] args) {
 		int rdx=(int)(Math.random()*100);

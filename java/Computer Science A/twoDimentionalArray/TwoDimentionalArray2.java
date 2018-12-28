@@ -1,4 +1,4 @@
-package projects;
+package twoDimentionalArray;
 import java.util.Scanner;
 public class TwoDimentionalArray2 {
 	public static void main(String[] args) {

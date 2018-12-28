@@ -1,4 +1,5 @@
-package projects;
+package array;
+import java.lang.Math;
 public class Array {
 	public static void main(String[] args) {
 		/* 1. The sum and average of an array (line 9-20)

@@ -1,5 +1,6 @@
-package projects;
+package circle;
 import java.util.Scanner;
+import java.lang.Math;
 public class Circle {
 	
 	public static double circleinput() {

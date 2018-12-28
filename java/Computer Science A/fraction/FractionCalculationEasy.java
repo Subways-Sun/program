@@ -1,4 +1,4 @@
-package projects;
+package fraction;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class FractionCalculationEasy {

@@ -1,5 +1,6 @@
-package projects;
+package bmi;
 import java.util.Scanner;
+import java.lang.Math;
 public class BMI {
 	public static double calculateBMI() {
 		while(true) {

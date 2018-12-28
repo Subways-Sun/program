@@ -1,4 +1,4 @@
-package projects;
+package guessNumber;
 import java.util.Random;
 import java.util.Scanner;
 public class GuessNumber {
