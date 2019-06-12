@@ -1,20 +1,25 @@
 package sort;
+import java.util.ArrayList;
 import java.util.Scanner;
-public class SelectionSort {
+public class InsertionSort {
 	public static int[] Sort(int[] a) {
-		for (int i=0;i<a.length;i++) {
-			int minIndex=i;
-			for (int j=i;j<a.length;j++) if (a[j]<a[minIndex]) minIndex=j;
-			int temp=a[minIndex];
-			a[minIndex]=a[i];
-			a[i]=temp;
-			System.out.println(i);
-			if (i==a.length-2) return a;
+		ArrayList<Integer> b=new ArrayList<Integer>();
+		for (int x:a) b.add(x);
+		for (int i=1; i<b.size(); i++) { 
+			for (int j=0; j<i; j++) {
+				if (b.get(i)<=b.get(j)) {
+					int temp=b.get(i);
+					b.remove(i);
+					b.add(j,temp);
+				}
+			}
 		}
-		return a;
+		int[] c=new int[a.length];
+		for (int i=0; i<c.length; i++) c[i]=b.get(i);
+		return c;
 	}
 	public static void main(String[] args) {
-		System.out.println("----Selection Sort----");
+		System.out.println("----Insertion Sort----");
 		Scanner s=new Scanner(System.in);
 		System.out.print("Enter your array (split each number with a comma): ");
 		String b=s.next();
