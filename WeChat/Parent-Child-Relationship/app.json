@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ChildInfo/ChildInfo",
+    "pages/ParentInfo/ParentInfo",
+    "pages/Child/Skr/Skr",
+    "pages/Child/Dog/Dog",
+    "pages/Child/CPosition/CPosition",
+    "pages/Child/Buddha/Buddha",
+    "pages/Child/Cold/Cold",
+    "pages/Child/Declare/Declare",
+    "pages/Child/Fish/Fish",
+    "pages/Child/Pig/Pig",
+    "pages/Child/Fragrant/Fragrant",
+    "pages/Parent/Entertain/Entertain",
+    "pages/Parent/Wear/Wear",
+    "pages/Child/Pigeon/Pigeon",
+    "pages/Child/SourFish/SourFish",
+    "pages/Child/Lemon/Lemon"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时代对接站",
+    "navigationBarTextStyle": "black"
+  }
+}

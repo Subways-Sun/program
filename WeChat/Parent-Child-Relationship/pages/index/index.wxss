@@ -1,0 +1,47 @@
+/**index.wxss**/
+.title {
+  margin: -40px;
+  font-size: xx-large;
+}
+
+.parent1 {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
+}
+
+.parent2 {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
+}
+
+.parentButton {
+  width: 350px;
+  margin-top: 100px;
+  padding: 10 15px;
+  font-size: x-large;
+}
+
+.child1 {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
+}
+
+.child2 {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -8px;
+}
+
+.childButton {
+  width: 350px;
+  margin-top: 50px;
+  padding: 0 15px;
+  font-size: x-large;
+}
+
+.navigator-hover {
+  background-color: rgb(255, 80, 109)
+}

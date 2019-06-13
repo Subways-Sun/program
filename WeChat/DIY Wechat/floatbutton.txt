@@ -1,0 +1,32 @@
+{
+  "info": "自定义悬浮按钮",
+  "menu": {
+    "icon": "ic_add.png"
+  },
+  "items": [
+    {
+      "order": 1,
+      "type": "com.tencent.mm.plugin.appbrand.ui.AppBrandLauncherUI",
+      "text": "Mini Programs",
+      "icon": "mini_program_icon.png"
+    },
+    {
+      "order": 2,
+      "type": "com.tencent.mm.plugin.offline.ui.WalletOfflineCoinPurseUI",
+      "text": "Payment",
+      "icon": "ic_money.png"
+    },
+    {
+      "order": 3,
+      "type": "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
+      "text": "Scan QR Code",
+      "icon": "ic_scan.png"
+    },
+    {
+      "order": 4,
+      "type": "com.tencent.mm.plugin.subapp.ui.pluginapp.AddMoreFriendsUI",
+      "text": "Add Friends",
+      "icon": "ic_person_add.png"
+    }
+  ]
+}

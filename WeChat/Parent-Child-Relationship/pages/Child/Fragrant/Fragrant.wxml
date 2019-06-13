@@ -1,0 +1,4 @@
+<!--pages/Child/Fragrant/Fragrant.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/fragrant.jpg'></image>
+</view>

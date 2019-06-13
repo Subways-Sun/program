@@ -1,0 +1,4 @@
+<!--pages/Child/Dog/Dog.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/dog.jpg'></image>
+</view>

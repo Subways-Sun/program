@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo">
+    <image class="logo" src='/image/logo.png' mode="cover"></image>
+  </view>
+  <view class="title">
+    <text class="name">您想？</text>
+  </view>
+  <view class="parent">
+    <navigator url="../ParentInfo/ParentInfo">
+      <button type="default" class="parentButton" hover-class="navigator-hover">
+        <image class="parent1" src='/image/dad.png'></image>
+        <text class="parent"> 了解家长的时代故事 </text>
+        <image class="parent2" src='/image/mom.png'></image>
+      </button>
+    </navigator>
+  </view>
+  <view class="child">
+    <navigator url="../ChildInfo/ChildInfo">
+      <button type="default" class="childButton" hover-class="navigator-hover">
+        <image class="child1" src='/image/boy.png'></image>
+        <text class="child"> 了解孩子的热词 </text>
+        <image class="child2" src='/image/girl.png'></image>
+      </button>
+    </navigator>
+  </view>
+</view>

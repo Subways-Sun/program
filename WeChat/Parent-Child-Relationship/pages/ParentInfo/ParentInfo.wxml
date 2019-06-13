@@ -1,0 +1,11 @@
+<!--pages/ParentInfo/ParentInfo.wxml-->
+<view class="container">
+  <view class="text">
+    <text class="title">{{title}}</text>
+  </view>
+  <view class="text">
+    <text class="subtitle">{{subtitle}}</text>
+  </view>
+  <button bindtap="entertainTap" class="btn0" disabled='true' hover-class="navigator-hover">娱乐方式</button>
+  <button bindtap="wearTap" class="btn" disabled='true' hover-class="navigator-hover">衣着打扮</button>
+</view>

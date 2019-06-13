@@ -1,0 +1,28 @@
+/* pages/ParentInfo/ParentInfo.wxss */
+.title {
+  font-size: xx-large;
+}
+
+.subtitle {
+  font-size: xx-large;
+}
+
+.btn0 {
+  width: 350px;
+  margin-top: 100px;
+  font-size: x-large;
+  /*background-color: rgba(255, 137, 139, 0.37);
+  color: rgba(0, 0, 0, 0.8)*/
+}
+
+.btn {
+  width: 350px;
+  margin-top: 10px;
+  font-size: x-large;
+  /*background-color: rgba(255, 137, 139, 0.37);
+  color: rgba(0, 0, 0, 0.8)*/
+}
+
+.navigator-hover {
+  background-color: rgb(255, 80, 109);
+}

@@ -1,0 +1,18 @@
+<!--pages/ChildInfo/ChildInfo.wxml-->
+<view class="container">
+  <view class="text">
+    <text class="title">{{title}}</text>
+  </view>
+  <button bindtap="dogTap" class="btn0" hover-class="navigator-hover">舔狗</button>
+  <button bindtap="cPositionTap" class="btn" hover-class="navigator-hover">C位出道</button>
+  <button bindtap="fishTap" class="btn" hover-class="navigator-hover">锦鲤</button>
+  <button bindtap="pigTap" class="btn" hover-class="navigator-hover">大猪蹄子</button>
+  <button bindtap="buddhaTap" class="btn" hover-class="navigator-hover">佛系</button>
+  <button bindtap="skrTap" class="btn" hover-class="navigator-hover">Skr</button>
+  <button bindtap="coldTap" class="btn" hover-class="navigator-hover">凉凉</button>
+  <button bindtap="declareTap" class="btn" hover-class="navigator-hover">官宣</button>
+  <button bindtap="fragrantTap" class="btn" hover-class="navigator-hover">真香</button>
+  <button bindtap="pigeonTap" class="btn" hover-class="navigator-hover">咕咕咕</button>
+  <button bindtap="sourFishTap" class="btn" hover-class="navigator-hover">酸菜鱼</button>
+  <button bindtap="lemonTap" class="btn" hover-class="navigator-hover">柠檬精</button>
+</view>

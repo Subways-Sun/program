@@ -1,0 +1,4 @@
+<!--pages/Child/SourFish/SourFish.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/sourFish.jpg'></image>
+</view>

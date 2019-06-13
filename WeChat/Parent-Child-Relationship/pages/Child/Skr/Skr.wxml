@@ -1,0 +1,4 @@
+<!--pages/Child/Skr/Skr.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/skr.jpg'></image>
+</view>

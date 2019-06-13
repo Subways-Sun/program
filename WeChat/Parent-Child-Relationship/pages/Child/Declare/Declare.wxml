@@ -1,0 +1,4 @@
+<!--pages/Child/Declare/Declare.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/declare.jpg'></image>
+</view>

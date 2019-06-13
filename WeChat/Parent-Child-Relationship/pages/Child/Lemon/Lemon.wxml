@@ -1,0 +1,4 @@
+<!--pages/Child/Lemon/Lemon.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/lemon.jpg'></image>
+</view>

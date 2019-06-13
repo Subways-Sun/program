@@ -1,0 +1,4 @@
+<!--pages/Child/CPosition/CPosition.wxml-->
+<view class="container">
+  <image class="image" mode='widthFix' src='/image/cPosition.jpg'></image>
+</view>
